@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.Web.MultiArch.AspNet", "AspNet\Sample.Web.MultiArch.AspNet.csproj", "{27C0EE44-83F1-4D7F-8CEF-6D6F5B9C002D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Web.MultiArch.Tests.Unit", "Tests.Unit\Sample.Web.MultiArch.Tests.Unit.csproj", "{D84D5A25-D719-4863-A621-ACEAA526CC56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -21,6 +23,14 @@ Global
 		{27C0EE44-83F1-4D7F-8CEF-6D6F5B9C002D}.Release|ARM64.Build.0 = Release|x64
 		{27C0EE44-83F1-4D7F-8CEF-6D6F5B9C002D}.Release|x64.ActiveCfg = Release|x64
 		{27C0EE44-83F1-4D7F-8CEF-6D6F5B9C002D}.Release|x64.Build.0 = Release|x64
+		{D84D5A25-D719-4863-A621-ACEAA526CC56}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{D84D5A25-D719-4863-A621-ACEAA526CC56}.Debug|ARM64.Build.0 = Debug|ARM64
+		{D84D5A25-D719-4863-A621-ACEAA526CC56}.Debug|x64.ActiveCfg = Debug|x64
+		{D84D5A25-D719-4863-A621-ACEAA526CC56}.Debug|x64.Build.0 = Debug|x64
+		{D84D5A25-D719-4863-A621-ACEAA526CC56}.Release|ARM64.ActiveCfg = Release|ARM64
+		{D84D5A25-D719-4863-A621-ACEAA526CC56}.Release|ARM64.Build.0 = Release|ARM64
+		{D84D5A25-D719-4863-A621-ACEAA526CC56}.Release|x64.ActiveCfg = Release|x64
+		{D84D5A25-D719-4863-A621-ACEAA526CC56}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
